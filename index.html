@@ -1,0 +1,630 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tiara Febriyanti — Frontend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  </head>
+  <body>
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <!-- NAV -->
+    <nav>
+      <a href="#" class="nav-logo">TF<span>.DEV</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- ========== HERO ========== -->
+    <section id="hero">
+      <div class="hero-scanline"></div>
+      <div
+        class="blob"
+        style="
+          width: 600px;
+          height: 600px;
+          background: rgba(42, 143, 255, 0.07);
+          top: -150px;
+          left: -150px;
+        "
+      ></div>
+      <div
+        class="blob"
+        style="
+          width: 350px;
+          height: 350px;
+          background: rgba(0, 229, 255, 0.04);
+          bottom: 80px;
+          left: 280px;
+        "
+      ></div>
+
+      <div class="hero-badge">
+        <div class="badge-dot"></div>
+        Open to opportunities
+      </div>
+
+      <h1 class="hero-name">
+        Tiara<br />
+        <span class="accent">Febriyanti</span><span class="ghost">.</span>
+      </h1>
+
+      <p class="hero-role">
+        <span class="hi">Frontend Developer</span> &nbsp;/&nbsp; React &amp;
+        Next.js &nbsp;/&nbsp; Subang, Indonesia
+      </p>
+
+      <p class="hero-desc">
+        Frontend Developer with experience in React.js, Next.js, and Laravel.
+        Skilled in building responsive, user-friendly interfaces and integrating
+        REST APIs. Passionate about improving UI/UX and delivering high-quality
+        web applications.
+      </p>
+
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">
+          <i data-lucide="arrow-right" style="width: 16px; height: 16px"></i>
+          View Projects
+        </a>
+        <a href="#contact" class="btn-ghost">
+          <i data-lucide="mail" style="width: 16px; height: 16px"></i>
+          Get In Touch
+        </a>
+      </div>
+
+      <!-- PROFILE PHOTO -->
+      <div class="hero-photo">
+        <div class="photo-frame">
+          <div class="photo-corner tl"></div>
+          <div class="photo-corner tr"></div>
+          <div class="photo-corner bl"></div>
+          <div class="photo-corner br"></div>
+          <div class="photo-inner">
+            <img src="assets/images/profile.jpeg" alt="Tiara Febriyanti" />
+            <div class="photo-scan"></div>
+          </div>
+          <div class="photo-tag">[ FRONTEND DEV ]</div>
+        </div>
+      </div>
+
+      <!-- Stats -->
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-num">2<span>+</span></div>
+          <div class="stat-label">Years Exp</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">5</div>
+          <div class="stat-label">Total Projects</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">2</div>
+          <div class="stat-label">Companies</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section id="about">
+      <div class="section-mark reveal">
+        <span class="tag">// 01 &mdash; About</span>
+        <div class="line"></div>
+      </div>
+      <h2 class="section-title reveal">About Me</h2>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm a <strong>Frontend Developer</strong> with a Bachelor's degree
+            in Informatics from <span class="hi">Telkom University</span> (GPA
+            3.32/4.0). I specialize in building
+            <strong>responsive, user-friendly interfaces</strong> that bridge
+            great design and solid engineering.
+          </p>
+          <p>
+            My professional experience includes working on-site at the
+            <strong>Ministry of Home Affairs</strong>, where I built an internal
+            web application for Dukcapil data management using
+            <span class="hi">Next.js</span> and
+            <span class="hi">Tailwind CSS</span>. I'm also passionate about
+            clean UI/UX implementation straight from Figma.
+          </p>
+          <p>
+            Outside of work, I've been actively involved in environmental
+            conservation activities through <strong>PMPA ASTACALA</strong> at
+            Telkom University — from tree planting and river cleanups to
+            community service programs.
+          </p>
+
+          <div class="edu-card">
+            <div class="edu-label">
+              <i
+                data-lucide="graduation-cap"
+                style="
+                  width: 12px;
+                  height: 12px;
+                  display: inline-block;
+                  margin-right: 6px;
+                  vertical-align: middle;
+                "
+              ></i>
+              Education
+            </div>
+            <div class="edu-item">
+              <div class="edu-school">Telkom University — Bandung</div>
+              <div class="edu-degree">
+                Bachelor's Degree in Informatics &nbsp;·&nbsp; GPA: 3.32 / 4.0
+              </div>
+              <div class="edu-year">2019 – 2023</div>
+            </div>
+            <div class="edu-item">
+              <div class="edu-school">
+                SMA Telekomunikasi Sekar Kemuning — Cirebon
+              </div>
+              <div class="edu-degree">High School Diploma in Science</div>
+              <div class="edu-year">2017 – 2019</div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="skills-wrap reveal">
+            <div class="skill-pill">
+              <i data-lucide="code-2" style="width: 16px; height: 16px"></i
+              ><span class="skill-name">HTML5 / CSS3</span>
+            </div>
+            <div class="skill-pill">
+              <i data-lucide="zap" style="width: 16px; height: 16px"></i
+              ><span class="skill-name">JavaScript ES6+</span>
+            </div>
+            <div class="skill-pill">
+              <i data-lucide="atom" style="width: 16px; height: 16px"></i
+              ><span class="skill-name">React.js</span>
+            </div>
+            <div class="skill-pill">
+              <i data-lucide="layers" style="width: 16px; height: 16px"></i
+              ><span class="skill-name">Next.js</span>
+            </div>
+            <div class="skill-pill">
+              <i data-lucide="paintbrush" style="width: 16px; height: 16px"></i
+              ><span class="skill-name">Tailwind CSS</span>
+            </div>
+            <div class="skill-pill">
+              <i data-lucide="layout" style="width: 16px; height: 16px"></i
+              ><span class="skill-name">Bootstrap</span>
+            </div>
+            <div class="skill-pill">
+              <i data-lucide="plug" style="width: 16px; height: 16px"></i
+              ><span class="skill-name">REST API</span>
+            </div>
+            <div class="skill-pill">
+              <i data-lucide="figma" style="width: 16px; height: 16px"></i
+              ><span class="skill-name">Laravel (Blade)</span>
+            </div>
+            <div class="skill-pill">
+              <i data-lucide="git-branch" style="width: 16px; height: 16px"></i
+              ><span class="skill-name">Git / GitHub</span>
+            </div>
+            <div class="skill-pill">
+              <i data-lucide="monitor" style="width: 16px; height: 16px"></i
+              ><span class="skill-name">Responsive Design</span>
+            </div>
+          </div>
+
+          <div class="skills-extra reveal">
+            <div class="skills-extra-group">
+              <div class="skills-extra-label">Soft Skills</div>
+              <div class="tags-row">
+                <span class="tag-chip">Problem Solving</span>
+                <span class="tag-chip">Teamwork</span>
+                <span class="tag-chip">Time Management</span>
+                <span class="tag-chip">Adaptability</span>
+                <span class="tag-chip">Interpersonal Skills</span>
+              </div>
+            </div>
+            <div class="skills-extra-group">
+              <div class="skills-extra-label">Tools</div>
+              <div class="tags-row">
+                <span class="tag-chip">VS Code</span>
+                <span class="tag-chip">Git</span>
+                <span class="tag-chip">GitHub</span>
+                <span class="tag-chip">GitLab</span>
+                <span class="tag-chip">Figma</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS ========== -->
+    <section id="projects">
+      <div class="section-mark reveal">
+        <span class="tag">// 02 &mdash; Projects</span>
+        <div class="line"></div>
+      </div>
+      <h2 class="section-title reveal">Featured Projects</h2>
+      <p class="section-sub reveal">
+        Key projects from my professional experience — including government tech
+        applications and internal management systems.
+      </p>
+
+      <div class="projects-grid">
+        <!-- PROJECT 1 — Dukcapil Web App -->
+        <div class="project-card reveal">
+          <img
+            src="assets/images/dukcapil.png"
+            alt="Dukcapil Data Management App"
+            class="proj-img"
+          />
+          <div class="proj-body">
+            <div class="proj-tags">
+              <span class="ptag featured">Featured</span>
+              <span class="ptag">Gov Tech</span>
+              <span class="ptag">Next.js</span>
+            </div>
+            <h3 class="proj-title">Dukcapil Data Management App</h3>
+            <p class="proj-desc">
+              Internal web application for data management and reporting, built
+              for the Directorate General of Village Government Development at
+              the Ministry of Home Affairs. Translated Figma UI/UX designs into
+              a fully responsive Next.js application.
+            </p>
+            <div class="proj-meta">
+              <div class="meta-col">
+                <span class="mk">Role</span>
+                <span class="mv">Frontend Dev</span>
+              </div>
+              <div class="meta-col">
+                <span class="mk">Stack</span>
+                <span class="mv">Next.js · Tailwind · FastAPI</span>
+              </div>
+              <div class="meta-col">
+                <span class="mk">Status</span>
+                <span class="mv live">● Live</span>
+              </div>
+            </div>
+            <!-- <a href="https://github.com/tiarafebryanti" target="_blank" class="proj-link">
+          View on GitHub
+          <i data-lucide="arrow-right" style="width:14px;height:14px;"></i>
+        </a> -->
+          </div>
+        </div>
+
+        <!-- PROJECT 2 — Dashboard Internal Portal -->
+        <div class="project-card reveal">
+          <img
+            src="assets/images/internal-portal.png"
+            alt="Dashboard Internal Portal — Natha Buana"
+            class="proj-img"
+          />
+          <div class="proj-body">
+            <div class="proj-tags">
+              <span class="ptag featured">Featured</span>
+              <span class="ptag">Dashboard</span>
+              <span class="ptag">React.js</span>
+            </div>
+            <h3 class="proj-title">Dashboard Internal Portal</h3>
+            <p class="proj-desc">
+              Responsive internal dashboard portal for data management and
+              reporting at Natha Buana Indonesia. Built with Next.js and
+              Tailwind CSS, integrated with REST API and Python FastAPI backend.
+            </p>
+            <div class="proj-meta">
+              <div class="meta-col">
+                <span class="mk">Role</span>
+                <span class="mv">Frontend Dev</span>
+              </div>
+              <div class="meta-col">
+                <span class="mk">Stack</span>
+                <span class="mv">React.js · Tailwind · FastAPI</span>
+              </div>
+              <div class="meta-col">
+                <span class="mk">Status</span>
+                <span class="mv live">● Live</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 3 — CMS Dashboard -->
+        <div class="project-card reveal">
+          <img
+            src="assets/images/cms.png"
+            alt="Dashboard Internal Portal — Natha Buana"
+            class="proj-img"
+          />
+          <div class="proj-body">
+            <div class="proj-tags">
+              <span class="ptag">CMS</span>
+              <span class="ptag">React.js</span>
+              <span class="ptag">Tailwind</span>
+            </div>
+            <h3 class="proj-title">CMS Dashboard</h3>
+            <p class="proj-desc">
+              Content Management System dashboard for managing and publishing
+              content efficiently. Designed with a clean UI, featuring
+              role-based access control and real-time data updates.
+            </p>
+            <div class="proj-meta">
+              <div class="meta-col">
+                <span class="mk">Role</span>
+                <span class="mv">Frontend Dev</span>
+              </div>
+              <div class="meta-col">
+                <span class="mk">Stack</span>
+                <span class="mv">React.js · Tailwind</span>
+              </div>
+              <div class="meta-col">
+                <span class="mk">Type</span>
+                <span class="mv">Web App</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 4 — Redesign App Tracker Fleet -->
+        <div class="project-card reveal">
+          <img
+            src="assets/images/fleet.png"
+            alt="Redesign App — Tracker Fleet"
+            class="proj-img"
+          />
+          <div class="proj-body">
+            <div class="proj-tags">
+              <span class="ptag">Redesign</span>
+              <span class="ptag">Mobile App</span>
+              <span class="ptag">Figma</span>
+            </div>
+            <h3 class="proj-title">Redesign App — Tracker Fleet</h3>
+            <p class="proj-desc">
+              UI/UX redesign of a fleet tracking application, improving
+              usability and visual hierarchy. Created high-fidelity Figma
+              prototypes with focus on real-time tracking, driver management,
+              and route monitoring.
+            </p>
+            <div class="proj-meta">
+              <div class="meta-col">
+                <span class="mk">Role</span>
+                <span class="mv">Frontend Dev</span>
+              </div>
+              <div class="meta-col">
+                <span class="mk">Stack</span>
+                <span class="mv">Laravel · Bootstrap</span>
+              </div>
+              <div class="meta-col">
+                <span class="mk">Type</span>
+                <span class="mv">Web App</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 5 — Redesign Web HRM -->
+        <div class="project-card reveal">
+          <img
+            src="assets/images/hrm.png"
+            alt="Redesign Web — HRM System"
+            class="proj-img"
+          />
+          <div class="proj-body">
+            <div class="proj-tags">
+              <span class="ptag">Redesign</span>
+              <span class="ptag">Web</span>
+              <span class="ptag">Figma</span>
+            </div>
+            <h3 class="proj-title">Redesign Web — HRM System</h3>
+            <p class="proj-desc">
+              UI/UX redesign of a Human Resource Management web application.
+              Focused on improving employee management flows, attendance
+              tracking, and payroll interfaces with a modern and accessible
+              design system.
+            </p>
+            <div class="proj-meta">
+              <div class="meta-col">
+                <span class="mk">Role</span>
+                <span class="mv">UI/UX Designer</span>
+              </div>
+              <div class="meta-col">
+                <span class="mk">Stack</span>
+                <span class="mv">CodeIgniter · Bootstrap · MySQL</span>
+              </div>
+              <div class="meta-col">
+                <span class="mk">Type</span>
+                <span class="mv">Human Resource Management System</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EXPERIENCE ========== -->
+    <section id="experience">
+      <div class="section-mark reveal">
+        <span class="tag">// 03 &mdash; Experience</span>
+        <div class="line"></div>
+      </div>
+      <h2 class="section-title reveal">Work Experience</h2>
+
+      <div class="timeline">
+        <!-- Job 1 - Natha Buana -->
+        <div class="tl-item reveal">
+          <div class="tl-header">
+            <div class="tl-date">May 2025 — April 2026</div>
+            <div class="tl-location">
+              <i data-lucide="map-pin" style="width: 11px; height: 11px"></i>
+              Bekasi, Indonesia
+            </div>
+          </div>
+          <div class="tl-role">Frontend Developer</div>
+          <div class="tl-co">
+            Natha Buana Indonesia
+            <span>On-site · Bekasi</span>
+          </div>
+          <ul class="tl-list">
+            <li>
+              Developing web applications using Python with the FastAPI
+              framework
+            </li>
+            <li>
+              Translated UI/UX designs from Figma into responsive web
+              applications using Next.js and Tailwind CSS
+            </li>
+            <li>
+              Built internal web application for data management and reporting
+              (Dukcapil – Ministry of Home Affairs)
+            </li>
+            <li>
+              Collaborated with designers and backend developers to deliver
+              scalable features
+            </li>
+          </ul>
+        </div>
+
+        <!-- Job 2 - Saka Sakti -->
+        <div class="tl-item reveal">
+          <div class="tl-header">
+            <div class="tl-date">February 2024 — April 2024</div>
+            <div class="tl-location">
+              <i data-lucide="map-pin" style="width: 11px; height: 11px"></i>
+              Jakarta, Indonesia
+            </div>
+          </div>
+          <div class="tl-role">Junior Programmer</div>
+          <div class="tl-co">
+            Saka Sakti Inovasi
+            <span
+              >On-site at Directorate General of Village Government Development,
+              Ministry of Home Affairs</span
+            >
+          </div>
+          <ul class="tl-list">
+            <li>
+              Developed website features using Python with the FastAPI framework
+            </li>
+            <li>
+              Translated UI/UX designs from Figma into responsive web
+              applications using Next.js and Tailwind CSS
+            </li>
+            <li>
+              Built internal web application for Dukcapil data management and
+              reporting
+            </li>
+            <li>
+              Collaborated with designers and backend developers to deliver
+              scalable features
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ORGANIZATION ========== -->
+    <section id="organization">
+      <div class="section-mark reveal" style="padding: 0 0 0 36px">
+        <span class="tag">// 04 &mdash; Organization</span>
+        <div class="line"></div>
+      </div>
+      <div style="margin-top: 16px">
+        <div class="org-card reveal">
+          <div class="org-header">
+            <div>
+              <div class="org-name">PMPA ASTACALA</div>
+              <div class="org-sub">
+                <i
+                  data-lucide="tree-pine"
+                  style="width: 13px; height: 13px"
+                ></i>
+                Environment &nbsp;·&nbsp; Telkom University, Bandung
+              </div>
+            </div>
+            <div class="org-year">2021 – 2022</div>
+          </div>
+          <ul class="org-list">
+            <li>
+              Organized conservation activities including weekly tree planting
+              on Telkom University campus grounds
+            </li>
+            <li>Organized a river cleanup program for the Citarum River</li>
+            <li>
+              Led a community service program at a local school focused on
+              instilling a higher-education mindset
+            </li>
+            <li>
+              Actively participated in the organizing committee of the seminar
+              <em
+                >"From Conflict to Coexistence: Protecting the Throne of the
+                King of the Java Forest"</em
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section id="contact">
+      <div class="contact-inner">
+        <div class="section-mark reveal" style="justify-content: center">
+          <span class="tag">// 05 &mdash; Contact</span>
+        </div>
+        <h2 class="section-title reveal">
+          Let's Work<br />Together<span style="color: var(--blue)">.</span>
+        </h2>
+        <p class="section-sub reveal" style="margin: 0 auto 0">
+          Have a project in mind or want to collaborate? I'd love to hear from
+          you — reach out via email, phone, or connect with me on LinkedIn.
+        </p>
+        <div class="contact-links reveal">
+          <a href="mailto:tiara.febrianti1702@gmail.com" class="contact-email">
+            <i data-lucide="mail" style="width: 16px; height: 16px"></i>
+            tiara.febrianti1702@gmail.com
+          </a>
+          <a href="tel:+6281224244263" class="contact-phone">
+            <i data-lucide="phone" style="width: 14px; height: 14px"></i>
+            +62 812-2424-4263
+          </a>
+        </div>
+        <div class="socials reveal">
+          <a
+            href="https://github.com/tiarafebryanti"
+            target="_blank"
+            class="social-btn"
+          >
+            <i data-lucide="github" style="width: 15px; height: 15px"></i>
+            GitHub
+          </a>
+          <a
+            href="https://www.linkedin.com/in/tiarafebryanti/"
+            target="_blank"
+            class="social-btn"
+          >
+            <i data-lucide="linkedin" style="width: 15px; height: 15px"></i>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>© 2025 Tiara Febriyanti — Frontend Developer</p>
+      <p>Subang, Indonesia</p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
